@@ -20,7 +20,7 @@
 
     //AWSCognitoCredentialsProvider *credentialsProvider = [[AWSCognitoCredentialsProvider alloc]initWithRegionType:AWSRegionUSWest2 identityPoolId:@""];
     
-    AWSStaticCredentialsProvider *credentialsProvider = [AWSStaticCredentialsProvider credentialsWithAccessKey:@"AKIAJZJZZXLEKNB6J5PA"  secretKey :@"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"];
+    AWSStaticCredentialsProvider *credentialsProvider = [AWSStaticCredentialsProvider credentialsWithAccessKey:@"AccessKey"  secretKey :@"secretKey"];
     
     AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSWest2
                                                                          credentialsProvider:credentialsProvider];

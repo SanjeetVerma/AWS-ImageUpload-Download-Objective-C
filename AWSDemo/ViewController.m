@@ -20,16 +20,10 @@ typedef void (^ALAssetsLibraryAccessFailureBlock)(NSError *error);
     [super viewDidLoad];
     
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
-
-//Access Key ID:AKIAJZJZZXLEKNB6J5PA
-//Secret Access Key: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
-//Bucket name:-  s3-ios-test
-
 - (IBAction)Gallery:(id)sender {
     
     self.ImagePickerController = [[UIImagePickerController alloc]init];
